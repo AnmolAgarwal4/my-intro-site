@@ -156,7 +156,7 @@ export default function AnmolIntro() {
       {/* Skills */}
       <Section id="skills" title="Skills">
         <div className="flex flex-wrap gap-2">
-          {["C", "UI/UX", "Cloud", "Figma", "Python", "SQL", "JS", "FastAPI", "React", "TailwindCSS", "Git/GitHub"].map((s) => (
+          {["C", "Cloud", "UI/UX", "Figma", "Python", "SQL", "JS", "FastAPI", "React", "TailwindCSS", "Git/GitHub"].map((s) => (
             <span key={s} className="rounded-xl border border-white/10 bg-white/5 px-3 py-1 text-sm">
               {s}
             </span>
